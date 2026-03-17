@@ -1,6 +1,9 @@
 # Part 3 - Answer
 
 ## Installation
+For installing the project, we can run the installation script ([`bash install.sh`](./install.sh)) or execute manually these commands:
+- Create `sqlite` database: `touch ./database/database.sqlite`.
+- Copy environment variables: `cp .env.example .env`
 - Install dependencies: `composer install`.
 - Install migrations and seed the database: `php artisan migrate --seed` (or `php artisan migrate:fresh --seed` to reset the database).
 - Run the server locally: `php artisan serve`
